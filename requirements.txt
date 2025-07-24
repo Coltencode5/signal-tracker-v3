@@ -1,10 +1,5 @@
 pandas
 requests
 spacy
-gspread
-gspread_dataframe
-oauth2client
-google-auth
-google-auth-oauthlib
-google-auth-httplib2
+openpyxl
 tqdm
