@@ -10,8 +10,6 @@ Original file is located at
 """
 
 # === Install and set up spaCy ===
-!pip install -U spacy
-!python -m spacy download en_core_web_sm
 
 import spacy
 nlp = spacy.load("en_core_web_sm")
