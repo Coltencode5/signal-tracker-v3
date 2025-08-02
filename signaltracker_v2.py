@@ -170,33 +170,129 @@ def calculate_signal_score(signal):
 
 # === EVENT CLASSIFIER ===
 def classify_event(signal):
+    """
+    Advanced event classification based on news headlines and signal metadata.
+    Uses comprehensive keyword matching with fallback logic.
+    """
     text = signal.get("raw_value", "").lower()
     matcher = signal.get("matcher_name", "").upper()
+    category = signal.get("category", "").lower()
 
-    if any(keyword in text for keyword in ["protest", "demonstration", "rally"]):
-        label = "Protest"
-    elif any(keyword in text for keyword in ["strike", "walkout", "labor action"]):
-        label = "Strike"
-    elif any(keyword in text for keyword in ["coup", "overthrow", "regime change"]):
-        label = "Coup/Political Unrest"
-    elif any(keyword in text for keyword in ["missile", "attack", "invasion", "airstrike"]):
-        label = "Military Escalation"
-    elif any(keyword in text for keyword in ["earthquake", "tsunami", "volcano", "hurricane", "wildfire", "flood", "drought"]):
-        label = "Natural Disaster"
-    elif any(keyword in text for keyword in ["ransomware", "cyberattack", "data breach"]):
-        label = "Cyberattack"
-    elif any(keyword in text for keyword in ["default", "cds", "credit default", "spread widening", "currency collapse", "financial crisis"]):
-        label = "Economic Crisis"
-    elif any(keyword in text for keyword in ["port strike", "shipping delay", "logistics crisis"]):
-        label = "Supply Chain Disruption"
-    else:
-        if "PROTEST_CLUSTERING" in matcher:
-            label = "Protest"
-        elif signal.get("category", "").lower().startswith("economic"):
-            label = "Economic Crisis"
-        else:
-            label = "Other/Miscellaneous"
+    # === PROTEST & CIVIL UNREST ===
+    protest_keywords = [
+        "protest", "demonstration", "rally", "march", "occupation", "sit-in",
+        "civil unrest", "civil disobedience", "mass gathering", "street protest",
+        "anti-government", "anti-regime", "people's movement", "popular uprising",
+        "citizen protest", "public demonstration", "mass mobilization"
+    ]
+    if any(keyword in text for keyword in protest_keywords):
+        return _set_classification(signal, "Protest")
 
+    # === STRIKES & LABOR ACTIONS ===
+    strike_keywords = [
+        "strike", "walkout", "labor action", "work stoppage", "industrial action",
+        "union strike", "general strike", "wildcat strike", "sympathy strike",
+        "labor dispute", "workplace protest", "employee walkout", "job action",
+        "industrial dispute", "labor unrest", "workplace shutdown"
+    ]
+    if any(keyword in text for keyword in strike_keywords):
+        return _set_classification(signal, "Strike")
+
+    # === COUPS & POLITICAL UNREST ===
+    coup_keywords = [
+        "coup", "coup d'état", "overthrow", "regime change", "military takeover",
+        "power grab", "government overthrow", "political coup", "military coup",
+        "regime overthrow", "government collapse", "political upheaval",
+        "military intervention", "constitutional crisis", "political crisis"
+    ]
+    if any(keyword in text for keyword in coup_keywords):
+        return _set_classification(signal, "Coup/Political Unrest")
+
+    # === MILITARY ESCALATION ===
+    military_keywords = [
+        "missile", "attack", "invasion", "airstrike", "bombing", "shelling",
+        "military operation", "armed conflict", "war", "battle", "combat",
+        "military strike", "air raid", "artillery", "tank", "troops",
+        "military escalation", "armed intervention", "military action",
+        "defense", "offensive", "military campaign", "warfare"
+    ]
+    if any(keyword in text for keyword in military_keywords):
+        return _set_classification(signal, "Military Escalation")
+
+    # === NATURAL DISASTERS ===
+    natural_disaster_keywords = [
+        "earthquake", "tsunami", "volcano", "hurricane", "typhoon", "cyclone",
+        "wildfire", "forest fire", "bushfire", "flood", "flooding", "drought",
+        "landslide", "avalanche", "tornado", "tropical storm", "storm surge",
+        "natural disaster", "seismic", "tectonic", "eruption", "lava flow"
+    ]
+    if any(keyword in text for keyword in natural_disaster_keywords):
+        return _set_classification(signal, "Natural Disaster")
+
+    # === CYBERATTACKS & DIGITAL THREATS ===
+    cyberattack_keywords = [
+        "ransomware", "cyberattack", "cyber attack", "data breach", "hack",
+        "hacking", "malware", "virus", "trojan", "phishing", "ddos",
+        "distributed denial of service", "cyber threat", "digital attack",
+        "computer virus", "cyber incident", "security breach", "data theft",
+        "cybercrime", "digital espionage", "cyber warfare", "cyber security"
+    ]
+    if any(keyword in text for keyword in cyberattack_keywords):
+        return _set_classification(signal, "Cyberattack")
+
+    # === ECONOMIC CRISES ===
+    economic_crisis_keywords = [
+        "default", "cds", "credit default", "spread widening", "currency collapse",
+        "financial crisis", "economic crisis", "recession", "depression",
+        "bankruptcy", "insolvency", "debt crisis", "sovereign default",
+        "economic collapse", "financial meltdown", "market crash", "stock crash",
+        "economic downturn", "financial instability", "currency crisis",
+        "debt default", "economic turmoil", "financial panic"
+    ]
+    if any(keyword in text for keyword in economic_crisis_keywords):
+        return _set_classification(signal, "Economic Crisis")
+
+    # === SUPPLY CHAIN DISRUPTIONS ===
+    supply_chain_keywords = [
+        "port strike", "shipping delay", "logistics crisis", "supply chain",
+        "supply disruption", "logistics disruption", "shipping crisis",
+        "cargo delay", "freight disruption", "transportation crisis",
+        "logistics bottleneck", "supply shortage", "inventory crisis",
+        "distribution problem", "shipping backlog", "cargo backlog"
+    ]
+    if any(keyword in text for keyword in supply_chain_keywords):
+        return _set_classification(signal, "Supply Chain Disruption")
+
+    # === FALLBACK LOGIC ===
+    # Check matcher name for specific patterns
+    if "PROTEST_CLUSTERING" in matcher:
+        return _set_classification(signal, "Protest")
+    elif "CDS" in matcher or "SOV" in matcher:
+        return _set_classification(signal, "Economic Crisis")
+    elif "MISSILE" in matcher or "MILITARY" in matcher:
+        return _set_classification(signal, "Military Escalation")
+    elif "CYBER" in matcher or "HACK" in matcher:
+        return _set_classification(signal, "Cyberattack")
+    elif "NATURAL" in matcher or "DISASTER" in matcher:
+        return _set_classification(signal, "Natural Disaster")
+
+    # Check category field
+    if category.startswith("economic") or "financial" in category:
+        return _set_classification(signal, "Economic Crisis")
+    elif category.startswith("geopolitical") or "political" in category:
+        return _set_classification(signal, "Coup/Political Unrest")
+    elif category.startswith("military") or "defense" in category:
+        return _set_classification(signal, "Military Escalation")
+    elif category.startswith("cyber") or "digital" in category:
+        return _set_classification(signal, "Cyberattack")
+    elif category.startswith("natural") or "environmental" in category:
+        return _set_classification(signal, "Natural Disaster")
+
+    # Default fallback
+    return _set_classification(signal, "Other/Miscellaneous")
+
+def _set_classification(signal, label):
+    """Helper function to set the classified event and return the signal."""
     signal["classified_event"] = label
     return signal
 
