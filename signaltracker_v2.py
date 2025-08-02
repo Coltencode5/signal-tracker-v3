@@ -4,6 +4,7 @@ import spacy
 import pandas as pd
 import requests
 from datetime import datetime, timedelta
+from news_fetcher import fetch_lseg_articles
 
 # === CONSTANTS ===
 EXCEL_PATH = "signals.xlsx"
@@ -14,7 +15,6 @@ DEDUPLICATION_WINDOW_SECONDS = 600
 LOW_REGION_CONFIDENCE_PENALTY = 2
 WEAK_CLASSIFICATION_PENALTY = 1
 SCHEMA_VERSION = "v1.1"
-NEWSAPI_KEY = os.environ.get("NEWSAPI_KEY", "c18ba3121e474c7d837c5415f7fc25e7")  # fallback to hardcoded if env not set
 
 # === NLP SETUP ===
 nlp = spacy.load("en_core_web_sm")
@@ -165,20 +165,6 @@ def classify_event(signal):
     signal["classified_event"] = label
     return signal
 
-# === NEWSAPI FETCH WITH SIMPLE RETRY ===
-def fetch_newsapi_articles(url, retries=3, delay=2):
-    for attempt in range(retries):
-        response = requests.get(url)
-        if response.status_code == 200:
-            return response.json().get("articles", [])
-        elif response.status_code == 429:
-            print("[WARN] Rate limited by NewsAPI, retrying...")
-            time.sleep(delay)
-        else:
-            print(f"[ERROR] Failed to fetch NewsAPI: {response.status_code}, {response.text}")
-            break
-    return []
-
 if __name__ == "__main__":
     # === TEST SIGNALS SETUP & PROCESSING ===
     test_signals = [
@@ -263,7 +249,7 @@ if __name__ == "__main__":
                 "status": f"Fail - {str(e)}"
             })
 
-    # === NEWSAPI FETCH ===
+    # === LSEG NEWS FETCH ===
     keywords = (
         "protest OR strike OR coup OR riot OR military OR "
         "earthquake OR tsunami OR volcano OR hurricane OR "
@@ -271,27 +257,23 @@ if __name__ == "__main__":
         "data breach OR missile OR invasion OR default OR "
         "currency collapse OR supply chain OR port strike OR logistics crisis"
     )
-    newsapi_url = (
-        f"https://newsapi.org/v2/everything?q={keywords}"
-        f"&language=en&sortBy=publishedAt&pageSize=20&apiKey={NEWSAPI_KEY}"
-    )
 
-    articles = fetch_newsapi_articles(newsapi_url)
-    print(f"[INFO] Retrieved {len(articles)} articles.")
+    articles = fetch_lseg_articles(query=keywords, count=20)
+    print(f"[INFO] Retrieved {len(articles)} articles from LSEG.")
 
     news_signals = []
     for article in articles:
-        headline = article.get("title", "N/A")
+        headline = article.get("headline", "N/A")
         extracted_region = extract_region_from_text(headline)
         normalized_region, region_confidence, precision_flag = normalize_region(extracted_region)
         signal = {
             "matcher_name": "NEWS_KEYWORD_MATCH",
-            "source": "NewsAPI",
+            "source": "LSEG",
             "raw_value": headline,
             "indicator_type": "News Headline",
             "category": "Geopolitical/Economic/Natural",
             "region": ', '.join(normalized_region),
-            "timestamp": article.get("publishedAt", datetime.utcnow().isoformat()),
+            "timestamp": article.get("timestamp", datetime.utcnow().isoformat()),
             "region_confidence": region_confidence,
             "region_precision_flag": precision_flag
         }
