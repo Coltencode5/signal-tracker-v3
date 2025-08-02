@@ -54,7 +54,8 @@ credibility_scores = {
     "Bloomberg": 10,
     "Reuters": 8,
     "Telegram": 5,
-    "Darknet": 2
+    "Darknet": 2,
+    "LSEG": 7
 }
 
 urgency_scores = {
@@ -67,6 +68,31 @@ sensitivity_scores = {
     "CDS_SOV_SPIKE": 9,
     "PROTEST_CLUSTERING": 6,
     "NDVI_ANOMALY": 7
+}
+
+# === EVENT-BASED SCORING FOR LSEG NEWS ===
+event_urgency_scores = {
+    "Military Escalation": 9,
+    "Protest": 7,
+    "Cyberattack": 8,
+    "Natural Disaster": 6,
+    "Strike": 6,
+    "Coup/Political Unrest": 8,
+    "Economic Crisis": 7,
+    "Supply Chain Disruption": 6,
+    "Other/Miscellaneous": 5
+}
+
+event_sensitivity_scores = {
+    "Military Escalation": 9,
+    "Protest": 6,
+    "Cyberattack": 8,
+    "Natural Disaster": 7,
+    "Strike": 5,
+    "Coup/Political Unrest": 9,
+    "Economic Crisis": 8,
+    "Supply Chain Disruption": 6,
+    "Other/Miscellaneous": 5
 }
 
 # === LOAD EXISTING DATA IF IT EXISTS ===
@@ -86,10 +112,20 @@ if not existing_df.empty and "timestamp" in existing_df.columns:
 def calculate_signal_score(signal):
     matcher = signal.get("matcher_name", "")
     source = signal.get("source", "")
+    classified_event = signal.get("classified_event", "")
 
+    # Get credibility score
     credibility_score = credibility_scores.get(source, 5)
-    urgency_score = urgency_scores.get(matcher, 5)
-    sensitivity_score = sensitivity_scores.get(matcher, 5)
+
+    # Get urgency and sensitivity scores based on source type
+    if source == "LSEG":
+        # Use event-based scoring for LSEG news
+        urgency_score = event_urgency_scores.get(classified_event, 5)
+        sensitivity_score = event_sensitivity_scores.get(classified_event, 5)
+    else:
+        # Use matcher-based scoring for other sources
+        urgency_score = urgency_scores.get(matcher, 5)
+        sensitivity_score = sensitivity_scores.get(matcher, 5)
 
     base_final_score = round(
         (credibility_score * 0.4) +
@@ -105,8 +141,7 @@ def calculate_signal_score(signal):
         penalty += LOW_REGION_CONFIDENCE_PENALTY
         penalty_reasons.append("Low region confidence")
 
-    classified_event = signal.get("classified_event", "").lower()
-    if classified_event in ["", "other/miscellaneous"]:
+    if classified_event.lower() in ["", "other/miscellaneous"]:
         penalty += WEAK_CLASSIFICATION_PENALTY
         penalty_reasons.append("Weak classification")
 
