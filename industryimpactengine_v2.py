@@ -5,7 +5,7 @@ from datetime import datetime
 # === CONSTANTS ===
 EXCEL_PATH = "signals.xlsx"
 IMPACT_MAPPING_SHEET = "ImpactMapping_v1"
-SIGNAL_FEED_SHEET = "Primary"
+SIGNAL_FEED_SHEET = "IndustryEngineInput"
 OUTPUT_SHEET = "ImpactResults_v1"
 MIN_REGION_CONFIDENCE = 0.5
 SCHEMA_VERSION = "v1.0"
