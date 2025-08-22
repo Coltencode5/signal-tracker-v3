@@ -19,7 +19,7 @@ class ExcelExporter:
     def export_datasets(self, datasets: List) -> bool:
         """Export all datasets to Excel workbook"""
         try:
-            logger.info(f"�� Exporting {len(datasets)} datasets to {self.output_file}")
+            logger.info(f" Exporting {len(datasets)} datasets to {self.output_file}")
             
             # Group datasets by sheet
             sheet_data = self._group_datasets_by_sheet(datasets)
@@ -62,9 +62,15 @@ class ExcelExporter:
             # Combine all datasets for this sheet
             combined_data = pd.concat(data_list, ignore_index=True)
             
-            # Sort by country, date, and metric
-            if 'country' in combined_data.columns and 'date' in combined_data.columns:
-                combined_data = combined_data.sort_values(['country', 'date', 'metric'])
+            # Handle different column formats for different sheets
+            if sheet_name == "CDS":
+                # For CDS sheet, sort by country, date, and ric
+                if 'country' in combined_data.columns and 'date' in combined_data.columns:
+                    combined_data = combined_data.sort_values(['country', 'date', 'ric'])
+            else:
+                # For other sheets, sort by country, date, and metric
+                if 'country' in combined_data.columns and 'date' in combined_data.columns and 'metric' in combined_data.columns:
+                    combined_data = combined_data.sort_values(['country', 'date', 'metric'])
             
             # Export to sheet
             combined_data.to_excel(
@@ -86,11 +92,19 @@ class ExcelExporter:
             
             for dataset in datasets:
                 if dataset.processed_data is not None and not dataset.processed_data.empty:
+                    # Handle different column formats
+                    if 'metric' in dataset.processed_data.columns:
+                        metrics = list(dataset.processed_data['metric'].unique())
+                    elif 'ric' in dataset.processed_data.columns:
+                        metrics = [f"CDS_{dataset.processed_data['ric'].iloc[0]}"]
+                    else:
+                        metrics = ["Unknown"]
+                    
                     summary_data.append({
                         "dataset_code": dataset.dataset_code,
                         "country": dataset.country,
                         "record_count": len(dataset.processed_data),
-                        "metrics": list(dataset.processed_data['metric'].unique()),
+                        "metrics": metrics,
                         "date_range": f"{dataset.processed_data['date'].min()} to {dataset.processed_data['date'].max()}",
                         "last_updated": pd.Timestamp.now().isoformat()
                     })
@@ -98,7 +112,7 @@ class ExcelExporter:
             if summary_data:
                 summary_df = pd.DataFrame(summary_data)
                 summary_df.to_excel(writer, sheet_name="Summary", index=False)
-                logger.info("✅ Created summary sheet")
+                logger.info(f"✅ Created summary sheet")
             
         except Exception as e:
             logger.error(f"❌ Error creating summary sheet: {e}")
