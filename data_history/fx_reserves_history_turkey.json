@@ -1,0 +1,14 @@
+[
+  {
+    "date": "2025-07-31",
+    "value_usd": 84910000000.0,
+    "eci": "TRGFXR=ECI",
+    "metric": "FX_Reserves_USD"
+  },
+  {
+    "date": "2025-08-31",
+    "value_usd": 90930000000.0,
+    "eci": "TRGFXR=ECI",
+    "metric": "FX_Reserves_USD"
+  }
+]

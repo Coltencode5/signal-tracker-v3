@@ -1,0 +1,722 @@
+[
+  {
+    "date": "2015-08-31",
+    "value": 1177719805000.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2015-09-30",
+    "value": 1219086712200.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2015-10-31",
+    "value": 1189979857800.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2015-11-30",
+    "value": 1189513751000.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2015-12-31",
+    "value": 1206005293900.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2016-01-31",
+    "value": 1205697764300.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2016-02-29",
+    "value": 1215825528200.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2016-03-31",
+    "value": 1231396884100.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2016-04-30",
+    "value": 1232969975800.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2016-05-31",
+    "value": 1256921835000.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2016-06-30",
+    "value": 1272179301000.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2016-07-31",
+    "value": 1287193948700.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2016-08-31",
+    "value": 1288385902000.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2016-09-30",
+    "value": 1304717378200.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2016-10-31",
+    "value": 1327264813900.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2016-11-30",
+    "value": 1374548287000.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2016-12-31",
+    "value": 1406729187900.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2017-01-31",
+    "value": 1434455755500.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2017-02-28",
+    "value": 1401615999300.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2017-03-31",
+    "value": 1441642896800.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2017-04-30",
+    "value": 1468654893600.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2017-05-31",
+    "value": 1488589564500.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2017-06-30",
+    "value": 1505781396900.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2017-07-31",
+    "value": 1516361660200.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2017-08-31",
+    "value": 1538886914700.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2017-09-30",
+    "value": 1552266224000.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2017-10-31",
+    "value": 1596047990800.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2017-11-30",
+    "value": 1630658300100.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2017-12-31",
+    "value": 1624675299500.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2018-01-31",
+    "value": 1618277191000.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2018-02-28",
+    "value": 1633681565000.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2018-03-31",
+    "value": 1678921402700.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2018-04-30",
+    "value": 1722642137500.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2018-05-31",
+    "value": 1825331191600.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2018-06-30",
+    "value": 1805676496900.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2018-07-31",
+    "value": 1857288359600.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2018-08-31",
+    "value": 2080876941700.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2018-09-30",
+    "value": 2031956192400.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2018-10-31",
+    "value": 1984481666600.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2018-11-30",
+    "value": 1891085359700.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2018-12-31",
+    "value": 1940589522500.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2019-01-31",
+    "value": 1957327986700.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2019-02-28",
+    "value": 1969840041800.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2019-03-31",
+    "value": 2068385764900.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2019-04-30",
+    "value": 2139606278700.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2019-05-31",
+    "value": 2170597779300.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2019-06-30",
+    "value": 2160946420400.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2019-07-31",
+    "value": 2178870725800.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2019-08-31",
+    "value": 2266858791400.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2019-09-30",
+    "value": 2289754176900.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2019-10-31",
+    "value": 2337370122600.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2019-11-30",
+    "value": 2356091243800.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2019-12-31",
+    "value": 2457542437800.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2020-01-31",
+    "value": 2479865710100.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2020-02-29",
+    "value": 2551440452300.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2020-03-31",
+    "value": 2666783276800.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2020-04-30",
+    "value": 2912202302900.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2020-05-31",
+    "value": 2917990084900.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2020-06-30",
+    "value": 3012656570500.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2020-07-31",
+    "value": 3143661555300.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2020-08-31",
+    "value": 3202286354400.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2020-09-30",
+    "value": 3274813446100.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2020-10-31",
+    "value": 3382013219900.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2020-11-30",
+    "value": 3354279178700.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2020-12-31",
+    "value": 3374869073900.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2021-01-31",
+    "value": 3321181384700.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2021-02-28",
+    "value": 3287004833800.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2021-03-31",
+    "value": 3457504006100.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2021-04-30",
+    "value": 3560730233600.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2021-05-31",
+    "value": 3690622380600.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2021-06-30",
+    "value": 3777715793800.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2021-07-31",
+    "value": 3824173759700.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2021-08-31",
+    "value": 3828860351400.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2021-09-30",
+    "value": 3979081247300.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2021-10-31",
+    "value": 4224347181500.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2021-11-30",
+    "value": 4814409122500.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2021-12-31",
+    "value": 5061707349900.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2022-01-31",
+    "value": 5236177052100.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2022-02-28",
+    "value": 5447597269000.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2022-03-31",
+    "value": 5744619055300.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2022-04-30",
+    "value": 5902193643600.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2022-05-31",
+    "value": 6297821480700.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2022-06-30",
+    "value": 6672718112900.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2022-07-31",
+    "value": 6970334144800.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2022-08-31",
+    "value": 7250816818900.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2022-09-30",
+    "value": 7487489960800.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2022-10-31",
+    "value": 7775031119400.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2022-11-30",
+    "value": 7931282407700.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2022-12-31",
+    "value": 8212797009800.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2023-01-31",
+    "value": 8433097394200.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2023-02-28",
+    "value": 8685219667800.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2023-03-31",
+    "value": 9059276168200.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2023-04-30",
+    "value": 9505999258000.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2023-05-31",
+    "value": 9409316708800.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2023-06-30",
+    "value": 10834532376000.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2023-07-31",
+    "value": 11478475285200.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2023-08-31",
+    "value": 12025319967100.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2023-09-30",
+    "value": 12349310010200.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2023-10-31",
+    "value": 12763789516500.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2023-11-30",
+    "value": 13050463067600.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2023-12-31",
+    "value": 13615988704000.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2024-01-31",
+    "value": 13751101196700.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2024-02-29",
+    "value": 13952856708500.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2024-03-31",
+    "value": 14287260194800.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2024-04-30",
+    "value": 14570464513500.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2024-05-31",
+    "value": 14841398680900.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2024-06-30",
+    "value": 15233375657206.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2024-07-31",
+    "value": 15602422705592.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2024-08-31",
+    "value": 16217128131338.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2024-09-30",
+    "value": 16493677789693.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2024-10-31",
+    "value": 16627690709175.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2024-11-30",
+    "value": 16920822831160.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2024-12-31",
+    "value": 17454451644931.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2025-01-31",
+    "value": 17639668336016.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2025-02-28",
+    "value": 18345004623844.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2025-03-31",
+    "value": 19809218196770.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2025-04-30",
+    "value": 20086911359271.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2025-05-31",
+    "value": 20657975573568.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2025-06-30",
+    "value": 21386412837794.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  },
+  {
+    "date": "2025-07-31",
+    "value": 21866120137806.0,
+    "ric": "aTRM2",
+    "metric": "M2_LEVEL_TRY"
+  }
+]

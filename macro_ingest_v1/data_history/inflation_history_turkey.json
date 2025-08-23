@@ -1,0 +1,20 @@
+[
+  {
+    "date": "2025-05-31",
+    "value_yoy_pct": 35.41,
+    "ric": "TRCPIY=ECI",
+    "metric": "CPI_YoY"
+  },
+  {
+    "date": "2025-06-30",
+    "value_yoy_pct": 35.05,
+    "ric": "TRCPIY=ECI",
+    "metric": "CPI_YoY"
+  },
+  {
+    "date": "2025-07-31",
+    "value_yoy_pct": 33.52,
+    "ric": "TRCPIY=ECI",
+    "metric": "CPI_YoY"
+  }
+]

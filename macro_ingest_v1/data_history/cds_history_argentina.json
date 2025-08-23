@@ -318,5 +318,10 @@
     "date": "2025-08-21",
     "mid_spread_bp": 804.56,
     "ric": "ARGV5YUSAC=R"
+  },
+  {
+    "date": "2025-08-22",
+    "mid_spread_bp": 805.01,
+    "ric": "ARGV5YUSAC=R"
   }
 ]
