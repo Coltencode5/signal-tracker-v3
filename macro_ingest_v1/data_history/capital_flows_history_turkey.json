@@ -1,0 +1,474 @@
+[
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2020-08-31",
+    "portfolio_net_usd": 2085000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2020-09-30",
+    "portfolio_net_usd": -179000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2020-10-31",
+    "portfolio_net_usd": -2168000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2020-11-30",
+    "portfolio_net_usd": -1995000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2020-12-31",
+    "portfolio_net_usd": -2846000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2021-01-31",
+    "portfolio_net_usd": -5215000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2021-02-28",
+    "portfolio_net_usd": -434000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2021-03-31",
+    "portfolio_net_usd": 5833000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2021-04-30",
+    "portfolio_net_usd": 2250000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2021-05-31",
+    "portfolio_net_usd": -225000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2021-06-30",
+    "portfolio_net_usd": -2306000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2021-07-31",
+    "portfolio_net_usd": -108000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2021-08-31",
+    "portfolio_net_usd": -340000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2021-09-30",
+    "portfolio_net_usd": -360000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2021-10-31",
+    "portfolio_net_usd": 2930000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2021-11-30",
+    "portfolio_net_usd": 2247000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2021-12-31",
+    "portfolio_net_usd": 3325000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2022-01-31",
+    "portfolio_net_usd": 1837000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2022-02-28",
+    "portfolio_net_usd": 1695000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2022-03-31",
+    "portfolio_net_usd": 3686000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2022-04-30",
+    "portfolio_net_usd": 1661000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2022-05-31",
+    "portfolio_net_usd": 4938000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2022-06-30",
+    "portfolio_net_usd": 2055000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2022-07-31",
+    "portfolio_net_usd": 1354000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2022-08-31",
+    "portfolio_net_usd": -395000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2022-09-30",
+    "portfolio_net_usd": 2819000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2022-10-31",
+    "portfolio_net_usd": 625000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2022-11-30",
+    "portfolio_net_usd": -848000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2022-12-31",
+    "portfolio_net_usd": -956000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2023-01-31",
+    "portfolio_net_usd": -343000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2023-02-28",
+    "portfolio_net_usd": 1365000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2023-03-31",
+    "portfolio_net_usd": 1601000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2023-04-30",
+    "portfolio_net_usd": 1026000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2023-05-31",
+    "portfolio_net_usd": 1979000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2023-06-30",
+    "portfolio_net_usd": -2200000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2023-07-31",
+    "portfolio_net_usd": -1191000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2023-08-31",
+    "portfolio_net_usd": -761000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2023-09-30",
+    "portfolio_net_usd": -384000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2023-10-31",
+    "portfolio_net_usd": 1353000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2023-11-30",
+    "portfolio_net_usd": -4579000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2023-12-31",
+    "portfolio_net_usd": -3518000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2024-01-31",
+    "portfolio_net_usd": -226000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2024-02-29",
+    "portfolio_net_usd": -1539000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2024-03-31",
+    "portfolio_net_usd": 1550000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2024-04-30",
+    "portfolio_net_usd": -1559000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2024-05-31",
+    "portfolio_net_usd": -6944000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2024-06-30",
+    "portfolio_net_usd": -1349000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2024-07-31",
+    "portfolio_net_usd": -2483000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2024-08-31",
+    "portfolio_net_usd": 1588000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2024-09-30",
+    "portfolio_net_usd": 1289000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2024-10-31",
+    "portfolio_net_usd": -1293000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2024-11-30",
+    "portfolio_net_usd": -2192000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2024-12-31",
+    "portfolio_net_usd": 1181000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2025-01-31",
+    "portfolio_net_usd": -2431000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2025-02-28",
+    "portfolio_net_usd": -2566000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2025-03-31",
+    "portfolio_net_usd": 3554000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2025-04-30",
+    "portfolio_net_usd": 11041000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2025-05-31",
+    "portfolio_net_usd": -2662000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "series_id": "aTRPIBALT",
+    "date": "2025-06-30",
+    "portfolio_net_usd": -1049000000.0,
+    "source": "Refinitiv",
+    "notes": "Portfolio investment balance for Turkey (USD)"
+  }
+]
