@@ -1,0 +1,474 @@
+[
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2020-08-31",
+    "trade_balance_usd": -6300000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2020-09-30",
+    "trade_balance_usd": -4860000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2020-10-31",
+    "trade_balance_usd": -2400000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2020-11-30",
+    "trade_balance_usd": -5050000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2020-12-31",
+    "trade_balance_usd": -4550000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2021-01-31",
+    "trade_balance_usd": -3060000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2021-02-28",
+    "trade_balance_usd": -3350000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2021-03-31",
+    "trade_balance_usd": -4670000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2021-04-30",
+    "trade_balance_usd": -3080000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2021-05-31",
+    "trade_balance_usd": -4160000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2021-06-30",
+    "trade_balance_usd": -2870000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2021-07-31",
+    "trade_balance_usd": -4330000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2021-08-31",
+    "trade_balance_usd": -4310000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2021-09-30",
+    "trade_balance_usd": -2610000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2021-10-31",
+    "trade_balance_usd": -1510000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2021-11-30",
+    "trade_balance_usd": -5450000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2021-12-31",
+    "trade_balance_usd": -6830000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2022-01-31",
+    "trade_balance_usd": -10290000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2022-02-28",
+    "trade_balance_usd": -7980000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2022-03-31",
+    "trade_balance_usd": -8270000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2022-04-30",
+    "trade_balance_usd": -6150000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2022-05-31",
+    "trade_balance_usd": -10660000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2022-06-30",
+    "trade_balance_usd": -8240000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2022-07-31",
+    "trade_balance_usd": -10700000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2022-08-31",
+    "trade_balance_usd": -11260000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2022-09-30",
+    "trade_balance_usd": -9610000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2022-10-31",
+    "trade_balance_usd": -7900000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2022-11-30",
+    "trade_balance_usd": -8780000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2022-12-31",
+    "trade_balance_usd": -9710000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2023-01-31",
+    "trade_balance_usd": -14290000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2023-02-28",
+    "trade_balance_usd": -12130000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2023-03-31",
+    "trade_balance_usd": -8380000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2023-04-30",
+    "trade_balance_usd": -8740000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2023-05-31",
+    "trade_balance_usd": -12490000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2023-06-30",
+    "trade_balance_usd": -5300000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2023-07-31",
+    "trade_balance_usd": -12530000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2023-08-31",
+    "trade_balance_usd": -8710000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2023-09-30",
+    "trade_balance_usd": -5100000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2023-10-31",
+    "trade_balance_usd": -6600000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2023-11-30",
+    "trade_balance_usd": -5970000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2023-12-31",
+    "trade_balance_usd": -6100000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2024-01-31",
+    "trade_balance_usd": -6190000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2024-02-29",
+    "trade_balance_usd": -6770000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2024-03-31",
+    "trade_balance_usd": -7300000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2024-04-30",
+    "trade_balance_usd": -9890000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2024-05-31",
+    "trade_balance_usd": -6470000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2024-06-30",
+    "trade_balance_usd": -5890000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2024-07-31",
+    "trade_balance_usd": -7310000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2024-08-31",
+    "trade_balance_usd": -5000000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2024-09-30",
+    "trade_balance_usd": -5160000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2024-10-31",
+    "trade_balance_usd": -5940000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2024-11-30",
+    "trade_balance_usd": -7510000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2024-12-31",
+    "trade_balance_usd": -8810000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2025-01-31",
+    "trade_balance_usd": -7520000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2025-02-28",
+    "trade_balance_usd": -7790000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2025-03-31",
+    "trade_balance_usd": -7200000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2025-04-30",
+    "trade_balance_usd": -12110000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2025-05-31",
+    "trade_balance_usd": -6650000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  },
+  {
+    "country": "TUR",
+    "ric_or_series": "TRTRD=ECI",
+    "date": "2025-06-30",
+    "trade_balance_usd": -8170000000.0,
+    "source": "Refinitiv",
+    "notes": "Trade balance for Turkey (USD)"
+  }
+]
