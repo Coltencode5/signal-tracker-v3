@@ -16,7 +16,6 @@ DATASET_CATEGORIES = {
 # Excel sheet names for each dataset
 SHEET_MAPPINGS = {
     "A1": "CDS",
-    "A2": "RolloverRatings", 
     "B1": "CapitalFlows",
     "B2": "MoneySupplyCB",
     "C1": "FXReserves",

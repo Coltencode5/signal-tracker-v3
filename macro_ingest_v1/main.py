@@ -16,7 +16,6 @@ from .datasets.monetary_data import MonetaryDataset
 from .datasets.fx_reserves import FXReservesDataset
 from .datasets.inflation_data import InflationDataset
 from .datasets.trade_data import TradeBalanceDataset
-from .datasets.credit_ratings import CreditRatingsDataset
 from .exporters.excel_exporter import ExcelExporter
 
 # Set up logging
@@ -70,7 +69,7 @@ def run_pipeline(countries: list, start_date: str, end_date: str, output_file: s
     """Run the complete data pipeline"""
     logger.info(f"🚀 Starting macro data pipeline")
     logger.info(f"🌍 Countries: {', '.join(countries)}")
-    logger.info(f" Date range: {start_date} to {end_date}")
+    logger.info(f"�� Date range: {start_date} to {end_date}")
     logger.info(f"📁 Output: {output_file}")
     
     # Create datasets for each country
@@ -80,9 +79,6 @@ def run_pipeline(countries: list, start_date: str, end_date: str, output_file: s
         cds_dataset = SovereignCDSDataset(country, start_date, end_date)
         datasets.append(cds_dataset)
         
-        # Dataset A2: Credit ratings
-        credit_ratings_dataset = CreditRatingsDataset(country, start_date, end_date)
-        datasets.append(credit_ratings_dataset)
         
         # Dataset B1: Capital flows
         capital_flows_dataset = CapitalFlowsDataset(country, start_date, end_date)
